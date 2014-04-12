@@ -26,6 +26,11 @@ p {
   margin: 2em 0;
 }
 
+a:link, a:visited, a:hover, a:active {
+  color: inherit;
+  text-decoration: none;
+}
+
 .site {
   margin: 0 auto;
 }
@@ -47,6 +52,10 @@ p {
      -moz-user-select: none;
       -ms-user-select: none;
           user-select: none;
+}
+
+.btn:hover {
+  background-color: #FF8103;
 }
 
 .btn-primary {
@@ -128,11 +137,11 @@ p {
 }
 
 .navbar-inverse .navbar-brand {
-  color: #fff;
+  color: #FFF;
 }
 .navbar-inverse .navbar-brand:hover,
 .navbar-inverse .navbar-brand:focus {
-  color: #ff631d;
+  color: #333;
   background-color: transparent;
 }
 
