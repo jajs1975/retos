@@ -189,3 +189,14 @@ body.landing .content {
   width: 100%
 }
 
+
+/*** Signup Form ***/
+
+.form-group {
+  margin-bottom: 10px;
+}
+
+.form-control {
+  height: 40px;
+}
+
