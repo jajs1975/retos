@@ -4,17 +4,15 @@ body {
   font-family: "Open Sans", sans-serif;
   font-size: 14px;
   line-height: 1.42857143;
-  color: #333;
 }
 
 body.landing {
-  background-color: #ff631d;
+  background-color: #f1f1f1;
   background-image:url("../img/background.svg");
-  color: #FFFFFF;
 }
 
 body.page {
-  background-color: #ffd9b3;
+  background-color: #f1f1f1;
 }
 
 h1 {
@@ -27,7 +25,7 @@ p {
 }
 
 a:link, a:visited, a:hover, a:active {
-  color: inherit;
+  color: #FFFFFF;
   text-decoration: none;
 }
 
@@ -55,7 +53,7 @@ a:link, a:visited, a:hover, a:active {
 }
 
 .btn:hover {
-  background-color: #FF8103;
+  background-color: #00e05a;
 }
 
 .btn-primary {
@@ -70,6 +68,8 @@ a:link, a:visited, a:hover, a:active {
   font-size: 18px;
   line-height: 1.33;
   border-radius: 0px;
+  color: #fff;
+
 }
 
 .form-control {
@@ -124,8 +124,8 @@ a:link, a:visited, a:hover, a:active {
   border-width: 0 0 1px;
 }
 .navbar-inverse {
-  background-color: #ff8103;
-  border-color: #ff8103 ;
+  background-color: #333;
+  border-color: #333;
 }
 
 .navbar-brand {
@@ -141,7 +141,7 @@ a:link, a:visited, a:hover, a:active {
 }
 .navbar-inverse .navbar-brand:hover,
 .navbar-inverse .navbar-brand:focus {
-  color: #333;
+  color: #00e05a;
   background-color: transparent;
 }
 
@@ -172,7 +172,7 @@ a:link, a:visited, a:hover, a:active {
 
 body.page .content {
   background-color:#fff;
-  color: #5f5f5f;
+  color: #333;
 }
 
 
@@ -180,8 +180,9 @@ body.page .content {
 
 
 body.landing .content {
-  color: #FFFFFF;
   text-align: center;
+  color: #333;
+
 }
 
 .logo-horizontal {
