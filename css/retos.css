@@ -56,6 +56,10 @@ a:link, a:visited, a:hover, a:active {
   background-color: #00e05a;
 }
 
+.btn:focus, .btn:active {
+  background-color: #00B15A;
+}
+
 .btn-primary {
   color: #fff;
   background-color: #333;
@@ -70,6 +74,10 @@ a:link, a:visited, a:hover, a:active {
   border-radius: 0px;
   color: #fff;
 
+}
+
+.btn-primary.disabled, .btn-primary[disabled] {
+  background-color: #A9F4C7;
 }
 
 .form-control {
