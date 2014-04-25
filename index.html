@@ -12,13 +12,25 @@ class:        landing
 
 <form role="form" id="signup">
   <div class="form-group">
-    <input type="text" class="form-control" id="name" placeholder="Nombre" required/>
+    <input type="text" class="form-control" id="name" placeholder="Nombre" 
+           data-msg-maxlength="Debe tener máximo 50 caracteres"
+           data-msg-minlength="Debe tener por lo menos 5 caracteres"
+           data-msg-required="Campo requerido."
+           data-rule-maxlength="50"
+           data-rule-minlength="5"
+           data-rule-required="true"
+           required/>
   </div>
   <div class="form-group">
-    <input type="email" class="form-control" id="email" placeholder="Correo electrónico" required/>
+    <input type="email" class="form-control" id="email" placeholder="Correo electrónico"
+           data-msg-required="Campo requerido."
+           data-rule-required="true" 
+           required/>
   </div>
   <div class="form-group">
-    <input type="text" class="form-control" id="company" placeholder="Empresa" required/>
+    <input data-msg-required="Campo requerido."
+           data-rule-required="true" 
+           type="text" class="form-control" id="company" placeholder="Empresa" required/>
   </div>
   <div class="form-group">
     <input type="text" class="form-control" id="url" placeholder="Sitio web">
