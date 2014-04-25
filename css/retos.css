@@ -8,7 +8,8 @@ body {
 
 body.landing {
   background-color: #f1f1f1;
-  background-image:url("../img/background.svg");
+  background-image: url("../img/background.png");
+  background-image:url("../img/background.svg"), none;
 }
 
 body.page {
